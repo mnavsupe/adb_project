@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<schema xmlns:ae="http://www.tibco.com/xmlns/ae2xsd/2002/05" xmlns:tns="http://www.tibco.com/xmlns/file/13e4faa5-ac64-4255-9c79-42a56d29a4fd_OutputRecord" attributeFormDefault="unqualified" elementFormDefault="unqualified" targetNamespace="http://www.tibco.com/xmlns/file/13e4faa5-ac64-4255-9c79-42a56d29a4fd_OutputRecord" xmlns="http://www.w3.org/2001/XMLSchema">
+    <element name="ActivityInput" type="tns:ActivityInput_Type"/>
+    <complexType name="ActivityInput_Type">
+        <sequence>
+            <element name="body" type="tns:body_Type"/>
+        </sequence>
+    </complexType>
+    <complexType name="body_Type">
+        <sequence>
+            <element maxOccurs="unbounded" minOccurs="0" name="OutputRecord" type="tns:OutputRecord_Type"/>
+        </sequence>
+    </complexType>
+    <complexType name="OutputRecord_Type">
+        <all>
+            <element minOccurs="0" name="field" nillable="true" type="string"/>
+            <element minOccurs="0" name="field1" nillable="true" type="string"/>
+            <element minOccurs="0" name="field2" nillable="true" type="string"/>
+        </all>
+    </complexType>
+</schema>

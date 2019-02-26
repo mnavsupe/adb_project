@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jndi:namedResource xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:filepluginresource="http://ns.tibco.com/bw/sharedresource/filepluginresource" xmlns:jndi="http://xsd.tns.tibco.com/amf/models/sharedresource/jndi" xmi:id="_L_COwTm8EemLZscobb2erg" name="files.git_check" type="filepluginresource:filepluginresource">
+  <jndi:configuration xsi:type="filepluginresource:FilesConfiguration" xmi:id="_L_HHQDm8EemLZscobb2erg" uid="13e4faa5-ac64-4255-9c79-42a56d29a4fd" manualMode="true">
+    <schemaList xsi:type="filepluginresource:WriteSchema" xmi:id="_MpEDMDm8EemLZscobb2erg" name="OutputRecord" uid="abe9b32c-af30-45ed-8c22-71d44077c552" schemaType="WRITE_MANUAL" parseType="Delimited" delimiter="Other" delimiterOther=";">
+      <attributesList xmi:id="_M3m1gDm8EemLZscobb2erg" name="field" dataType="string" dateTimePattern="EEEE, MMMM d, yyyy h:mm:ss a z" alignment="left" padding=" " width="-1"/>
+      <attributesList xmi:id="_M5CY4Dm8EemLZscobb2erg" name="field1" dataType="string" dateTimePattern="EEEE, MMMM d, yyyy h:mm:ss a z" position="1" alignment="left" padding=" " width="-1"/>
+      <attributesList xmi:id="_M6r-sDm8EemLZscobb2erg" name="field2" dataType="string" dateTimePattern="EEEE, MMMM d, yyyy h:mm:ss a z" position="2" alignment="left" padding=" " width="-1"/>
+    </schemaList>
+  </jndi:configuration>
+</jndi:namedResource>
